@@ -1,0 +1,28 @@
+# Build
+build/
+cmake-build-*/
+*.o
+*.a
+
+# Data (niet inchecken – te groot / privé Kaggle-data)
+data/*.csv
+data/*.json
+data/*.txt
+!data/.gitkeep
+
+# Results (optioneel: je kan wel submissions inchecken)
+results/*.csv
+!results/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Python analyse
+__pycache__/
+*.pyc
+analysis/.ipynb_checkpoints/
+
+# macOS
+.DS_Store
