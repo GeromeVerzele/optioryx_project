@@ -6,3 +6,5 @@ import matplotlib.pyplot as plt
 
 # TODO: laad resultaten en maak plots
 print("Analyse nog te implementeren.")
+
+
